@@ -1,0 +1,11 @@
+name: Manhunt
+author: RichkidRich
+version: 1.1.2
+main: io.github.RichkidRich.manHunt.Main
+description: easy manhunt with glowy blind people
+commands:
+   startManHunt:
+      description: start the manhunt
+      usage: /<command> <hunter> <gameLength> <setBlindness T/F>
+      permission: <plugin name>.startManHunt
+      permission-message: You don't have <permission>
